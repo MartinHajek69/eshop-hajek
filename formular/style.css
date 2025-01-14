@@ -72,3 +72,20 @@
     align-items: center;
     text-align: center;
   }
+  .frame {
+    width: 300px; /* Nastavte požadovanou šířku rámečku */
+    border: 5px solid #000; /* Nastavení barvy a tloušťky rámečku */
+    padding: 10px; /* Vnitřní okraje rámečku */
+    text-align: center; /* Zarovnání textu do středu */
+    margin: 20px; /* Vnější okraje rámečku */
+}
+.frame img {
+    width: 100%; /* Obrázek bude vyplňovat šířku rámečku */
+    height: auto; /* Zachování poměru stran obrázku */
+}
+.info {
+    margin-top: 10px; /* Mezera mezi obrázkem a informacemi */
+    font-family: Arial, sans-serif; /* Písmo pro informace */
+    font-size: 14px; /* Velikost písma pro informace */
+    color: #333; /* Barva textu */
+}
